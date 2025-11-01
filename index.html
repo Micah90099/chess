@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./pieces/bki Small.png" type="image/x-icon">
+    <script src="./functions.js"></script>
+    <script src="./boards.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+    <title> Chess Game - Micah's Games </title>
+</head>
+
+<body>
+    <!-- TODO: buttons -->
+    <div class="invis-grid"></div>
+    <div class="outer-grid">
+        <div class="player black-player">
+            <div class="player-left">
+                <div class="icon-div"><img src="./pieces/bp.png" alt="Black Icon" class="icon"></div> 
+                <p>Player 2</p>
+            </div>
+            <div class="timer"></div>
+        </div>
+        <div class="chess-grid"></div>
+        <div class="player white-player">
+            <div class="player-left">
+                <div class="icon-div"><img src="./pieces/wp.png" alt="White Icon" class="icon"></div>
+                <p>Player 1</p>
+            </div>
+            <div class="timer"></div>
+        </div>
+    </div>
+    <div class="moves"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
